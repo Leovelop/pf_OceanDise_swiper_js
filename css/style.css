@@ -138,7 +138,8 @@ th {
 #wrap .swiper-wrapper .swiper-slide img {
   opacity: 0.4;
 }
-#wrap .swiper-wrapper .swiper-slide-prev img, #wrap .swiper-wrapper .swiper-slide-next img {
+#wrap .swiper-wrapper .swiper-slide-prev img,
+#wrap .swiper-wrapper .swiper-slide-next img {
   opacity: 0.7;
 }
 #wrap .swiper-wrapper .swiper-slide-active img {
