@@ -1,0 +1,20 @@
+@mixin title($fontWeight: bold, $fontSize: 24px, $fontFamily: 'Orbitron'){
+    color: #eee;
+    font : $fontWeight calc($fontSize / 1) $fontFamily;
+    letter-spacing: 1.5px;
+}
+
+@mixin floatRelease {
+    &::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+
+$btnEffectWid : 20px;
+$btnEffectHt : 4px;
+$btnColor : #eee;
+$btnColor : #eee;
+$slideWid : 30vmax;
+$slideHt : $slideWid;

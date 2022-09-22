@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>swiper 연습</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/854aa5d369.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+    <header id="header">
+        <div class="inner">
+            <h1><a href="#" title="LOGO">OceanDise</a></h1>
+            <nav>
+                <ul id="gnb">
+                    <li><a href="#" title="INTRODUCTION">INTRODUCTION</a></li>
+                    <li><a href="#" title="ANIMAL TYPE">ANIMAL TYPE</a></li>
+                    <li><a href="#" title="GET INSPIRED">GET INSPIRED</a></li>
+                    <li><a href="#" title="SPECIAL">SPECIAL</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <figure id="visual">
+        <video src="./img/pexels-danilo-riba-747807.mp4" muted autoplay loop></video>
+    </figure>
+
+    <section id="wrap">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./img/01.jpg" alt="해달 이미지"></div>
+            <div class="swiper-slide"><img src="./img/02.jpg" alt="상어 이미지"></div>
+            <div class="swiper-slide"><img src="./img/03.jpg" alt="거북이 이미지"></div>
+            <div class="swiper-slide"><img src="./img/04.jpg" alt="가재 이미지"></div>
+            <div class="swiper-slide"><img src="./img/05.jpg" alt="불가사리 이미지"></div>
+            <div class="swiper-slide"><img src="./img/06.jpg" alt="열대어 이미지"></div>
+            <div class="swiper-slide"><img src="./img/07.jpg" alt="물개 이미지"></div>
+            <div class="swiper-slide"><img src="./img/08.jpg" alt="돌고래 이미지"></div>
+            <div class="swiper-slide"><img src="./img/09.jpg" alt="갈매기 이미지"></div>
+            <div class="swiper-slide"><img src="./img/10.jpg" alt="고래 이미지"></div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-button">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <ul class="auto">
+            <li class="play">Play</li>
+            <li class="pause on">Pause</li>
+        </ul>
+    </section>
+</body>
+
+</html>
