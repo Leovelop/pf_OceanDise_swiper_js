@@ -172,13 +172,17 @@
       font: bold 14px/40px 'arial';
       text-align: center;
 
+      a {
+        color: #fff;
+      }
+
       &:last-child {
         margin-right: 0;
       }
 
       &.on {
         background: $btnColor;
-        color: #172533;
+        
       }
 
       &::after {

@@ -178,12 +178,14 @@ th {
   font: bold 14px/40px "arial";
   text-align: center;
 }
+#wrap .auto li a {
+  color: #fff;
+}
 #wrap .auto li:last-child {
   margin-right: 0;
 }
 #wrap .auto li.on {
   background: #eee;
-  color: #172533;
 }
 #wrap .auto li::after {
   content: "";
