@@ -201,7 +201,7 @@ th {
   margin-left: -10px;
   height: 4px;
   background: aqua;
-  transition: 0.2s;
+  transition: 0.3s;
   opacity: 0;
 }
 #wrap .auto li:hover::after {
