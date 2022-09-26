@@ -79,7 +79,7 @@ th {
   height: 4px;
   background: aqua;
   opacity: 0;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 #header .inner #gnb li:hover a::after {
   bottom: -50%;
