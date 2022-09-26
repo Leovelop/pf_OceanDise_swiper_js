@@ -183,6 +183,9 @@
       &.on {
         background: $btnColor;
         
+        a {
+          color: #172533;
+        }
       }
 
       &::after {
