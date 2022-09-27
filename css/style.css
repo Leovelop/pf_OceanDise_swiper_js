@@ -155,8 +155,8 @@ th {
   width: 400px;
   margin-left: -200px;
 }
-#wrap .swiper-button .swiper-button-prev {
-  background: #fff;
+#wrap .swiper-button .swiper-button-prev::after, #wrap .swiper-button .swiper-button-next::after {
+  display: none;
 }
 #wrap .auto {
   position: absolute;

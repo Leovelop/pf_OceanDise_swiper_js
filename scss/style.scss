@@ -147,8 +147,10 @@
     width: $btnWid;
     margin-left: - calc($btnWid / 2);
 
-    .swiper-button-prev {
-      background: #fff;
+    .swiper-button-prev, .swiper-button-next {
+      &::after {
+        display: none;
+      }
     }
   }
 
