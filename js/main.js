@@ -41,7 +41,7 @@ btnPlay.onclick = function () {
 }
 
 btnPause.addEventListener("click", e => {
-  
+  e.preventDefault();
 });
 
 btnPause.onclick = function () {
