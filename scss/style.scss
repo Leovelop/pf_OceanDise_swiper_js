@@ -148,6 +148,7 @@
     margin-left: - calc($btnWid / 2);
 
     .swiper-button-prev, .swiper-button-next {
+      
       &::after {
         display: none;
       }
