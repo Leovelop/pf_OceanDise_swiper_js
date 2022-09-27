@@ -40,6 +40,10 @@ btnPlay.onclick = function () {
   this.classList.add("on");
 }
 
+btnPause.addEventListener("click", e => {
+  
+});
+
 btnPause.onclick = function () {
   swiper.autoplay.stop();
   btnPlay.classList.remove("on");
