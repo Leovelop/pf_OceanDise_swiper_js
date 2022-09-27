@@ -155,6 +155,9 @@ th {
   width: 400px;
   margin-left: -200px;
 }
+#wrap .swiper-button .swiper-button-prev i, #wrap .swiper-button .swiper-button-next i {
+  font-size: 50px;
+}
 #wrap .swiper-button .swiper-button-prev::after, #wrap .swiper-button .swiper-button-next::after {
   display: none;
 }
