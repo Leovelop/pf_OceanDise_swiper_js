@@ -34,16 +34,11 @@ let swiper = new Swiper("#wrap", {
 
 swiper.autoplay.stop();
 
-btnPlay.onclick = function () {
-  swiper.autoplay.start();
-  btnPause.classList.remove("on");
-  this.classList.add("on");
-}
-
 btnPlay.addEventListener("click", e => {
   e.preventDefault();
   swiper.autoplay.start();
   btnPause.classList.remove("on");
+  btnPlay.classList.add("on");
 });
 
 btnPause.onclick = function () {
