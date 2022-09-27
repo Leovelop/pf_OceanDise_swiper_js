@@ -41,8 +41,9 @@ btnPlay.addEventListener("click", e => {
   btnPlay.classList.add("on");
 });
 
-btnPause.onclick = function () {
+btnPause.addEventListener("click", e => {
+  e.preventDefault();
   swiper.autoplay.stop();
   btnPlay.classList.remove("on");
-  this.classList.add("on");
-}
+  btnPause.classList.add("on");
+});
