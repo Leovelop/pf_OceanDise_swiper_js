@@ -146,7 +146,7 @@ th {
   opacity: 1;
 }
 #wrap .swiper-pagination .swiper-pagination-bullet {
-  background: #fff;
+  background: aqua;
 }
 #wrap .swiper-button {
   position: absolute;
@@ -157,6 +157,7 @@ th {
 }
 #wrap .swiper-button .swiper-button-prev i, #wrap .swiper-button .swiper-button-next i {
   font-size: 50px;
+  color: #fff;
 }
 #wrap .swiper-button .swiper-button-prev::after, #wrap .swiper-button .swiper-button-next::after {
   display: none;
