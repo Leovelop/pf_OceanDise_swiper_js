@@ -140,14 +140,14 @@ th {
   object-fit: cover;
   transition: 0.5s;
 }
-#wrap .swiper-wrapper .swiper-slide img {
+#wrap .swiper-wrapper .swiper-slide .inner {
   opacity: 0.4;
 }
-#wrap .swiper-wrapper .swiper-slide-prev img,
-#wrap .swiper-wrapper .swiper-slide-next img {
+#wrap .swiper-wrapper .swiper-slide-prev .inner,
+#wrap .swiper-wrapper .swiper-slide-next .inner {
   opacity: 0.7;
 }
-#wrap .swiper-wrapper .swiper-slide-active img {
+#wrap .swiper-wrapper .swiper-slide-active .inner {
   opacity: 1;
 }
 #wrap .swiper-pagination .swiper-pagination-bullet {
