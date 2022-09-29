@@ -128,6 +128,7 @@ th {
   border-radius: 20px;
   overflow: hidden;
   background: linear-gradient(45deg, royalblue, aqua);
+  position: relative;
 }
 #wrap .swiper-wrapper .swiper-slide img {
   width: 100%;
