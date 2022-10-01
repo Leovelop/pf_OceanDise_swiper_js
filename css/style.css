@@ -157,7 +157,6 @@ th {
 }
 #wrap .swiper-wrapper .swiper-slide-active .inner {
   opacity: 1;
-  box-shadow: 5px 5px 100px rgba(255, 255, 255, 0.8);
 }
 #wrap .swiper-pagination .swiper-pagination-bullet {
   background: aqua;
