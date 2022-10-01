@@ -134,6 +134,9 @@ th {
   height: 100%;
   overflow: hidden;
 }
+#wrap .swiper-wrapper .swiper-slide .inner::before, #wrap .swiper-wrapper .swiper-slide .inner::after {
+  content: "";
+}
 #wrap .swiper-wrapper .swiper-slide .inner img {
   width: inherit;
   height: inherit;

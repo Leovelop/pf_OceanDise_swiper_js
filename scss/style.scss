@@ -115,6 +115,10 @@
         height: 100%;
         overflow: hidden;
 
+        &::before, &::after {
+          content: '';
+        }
+
         img {
           width: inherit;
           height: inherit;
