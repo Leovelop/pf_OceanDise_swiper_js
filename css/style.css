@@ -119,6 +119,7 @@ th {
   position: absolute;
   top: 50%;
   margin-top: -15vmax;
+  z-index: 1;
 }
 #wrap .swiper-wrapper .swiper-slide {
   width: 30vmax;
@@ -141,6 +142,8 @@ th {
   position: absolute;
   top: 0px;
   left: 0px;
+  z-index: -1;
+  background: #fff;
 }
 #wrap .swiper-wrapper .swiper-slide .inner img {
   width: inherit;
@@ -227,5 +230,7 @@ th {
   opacity: 1;
   top: -30%;
 }
+
+@keyframes ani {}
 
 /*# sourceMappingURL=style.css.map */

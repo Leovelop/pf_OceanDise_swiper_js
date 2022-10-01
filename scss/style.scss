@@ -100,6 +100,7 @@
     position: absolute;
     top: 50%;
     margin-top: - calc(($slideHt / 2));
+    z-index: 1;
 
     .swiper-slide {
       width: $slideWid;
@@ -122,6 +123,8 @@
           position: absolute;
           top: 0px;
           left: 0px;
+          z-index: -1;
+          background: #fff;
         }
 
         img {
@@ -234,4 +237,8 @@
       }
     }
   }
+}
+
+@keyframes ani {
+  
 }
