@@ -136,6 +136,8 @@ th {
 }
 #wrap .swiper-wrapper .swiper-slide .inner::before, #wrap .swiper-wrapper .swiper-slide .inner::after {
   content: "";
+  width: 100%;
+  height: 100%;
 }
 #wrap .swiper-wrapper .swiper-slide .inner img {
   width: inherit;
