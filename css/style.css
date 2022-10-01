@@ -231,6 +231,11 @@ th {
   top: -30%;
 }
 
-@keyframes ani {}
+@keyframes ani {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
