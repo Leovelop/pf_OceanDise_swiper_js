@@ -152,14 +152,13 @@ th {
   transition: 0.5s;
 }
 #wrap .swiper-wrapper .swiper-slide .inner {
+  transition: 0.3s;
   opacity: 0.4;
 }
 #wrap .swiper-wrapper .swiper-slide-prev .inner,
 #wrap .swiper-wrapper .swiper-slide-next .inner {
-  opacity: 0.7;
-}
-#wrap .swiper-wrapper .swiper-slide-active {
   transition: 0.3s;
+  opacity: 0.7;
 }
 #wrap .swiper-wrapper .swiper-slide-active .inner {
   opacity: 1;
