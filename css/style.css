@@ -163,7 +163,10 @@ th {
   opacity: 1;
 }
 #wrap .swiper-wrapper .swiper-slide-active .inner::before {
-  animation: ani 1s ease 1s;
+  animation: ani 1s ease 1;
+}
+#wrap .swiper-wrapper .swiper-slide-active .inner::after {
+  animation: ani 1s ease 0.3s 1;
 }
 #wrap .swiper-pagination .swiper-pagination-bullet {
   background: aqua;
