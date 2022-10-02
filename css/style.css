@@ -163,6 +163,7 @@ th {
 }
 #wrap .swiper-wrapper .swiper-slide-active .inner {
   opacity: 1;
+  box-shadow: 5px 5px 100px rgba(82, 169, 255, 0.5);
 }
 #wrap .swiper-wrapper .swiper-slide-active .inner::before {
   animation: ani 1s ease 0.2s 1;
