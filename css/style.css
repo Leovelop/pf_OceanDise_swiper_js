@@ -143,7 +143,6 @@ th {
   top: 0px;
   left: 0px;
   z-index: -1;
-  opacity: 1;
   background: #fff;
 }
 #wrap .swiper-wrapper .swiper-slide .inner img {
@@ -163,10 +162,10 @@ th {
   opacity: 1;
 }
 #wrap .swiper-wrapper .swiper-slide-active .inner::before {
-  animation: ani 1s ease 1;
+  animation: ani 1s ease 0.2s 1;
 }
 #wrap .swiper-wrapper .swiper-slide-active .inner::after {
-  animation: ani 1s ease 0.3s 1;
+  animation: ani 1s ease 0.5s 1;
 }
 #wrap .swiper-pagination .swiper-pagination-bullet {
   background: aqua;

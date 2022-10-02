@@ -124,7 +124,6 @@
           top: 0px;
           left: 0px;
           z-index: -1;
-          opacity: 1;
           background: #fff;
         }
 
@@ -151,11 +150,11 @@
       //box-shadow: 5px 5px 100px rgba(30, 143, 255, 0.6);
 
       &::before {
-        animation: ani 1s ease 1;
+        animation: ani 1s ease 0.2s 1;
       }
 
       &::after {
-        animation: ani 1s ease 0.3s 1;
+        animation: ani 1s ease 0.5s 1;
       }
     }
   }
