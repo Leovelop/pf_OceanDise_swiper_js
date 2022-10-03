@@ -20,8 +20,9 @@
     h1 {
       position: absolute;
       left: 0;
-      top: 50%;
-      transform: translateY(-50%);
+      height: 100%;
+      display: flex;
+      align-items: center;
 
       a {
         @include title();
