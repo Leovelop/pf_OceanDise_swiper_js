@@ -191,7 +191,8 @@
 
       &::after {
         //display: none;
-        filter: brightness(200%);
+        filter: brightness(200%) opacity(50%);
+        transition: 0.5s;
       }
     }
   }
