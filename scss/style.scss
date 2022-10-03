@@ -190,7 +190,8 @@
       }
 
       &::after {
-        display: none;
+        //display: none;
+        //filter: brightness(200%);
       }
     }
   }

@@ -186,10 +186,6 @@ th {
   font-size: 50px;
   color: #fff;
 }
-#wrap .swiper-button .swiper-button-prev::after,
-#wrap .swiper-button .swiper-button-next::after {
-  display: none;
-}
 #wrap .auto {
   position: absolute;
   left: 50%;
