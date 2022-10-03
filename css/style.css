@@ -188,8 +188,13 @@ th {
 }
 #wrap .swiper-button .swiper-button-prev::after,
 #wrap .swiper-button .swiper-button-next::after {
-  filter: brightness(200%) opacity(50%);
+  filter: brightness(200%);
+  opacity: 0.5;
   transition: 0.5s;
+}
+#wrap .swiper-button .swiper-button-prev:hover::after,
+#wrap .swiper-button .swiper-button-next:hover::after {
+  opacity: 1;
 }
 #wrap .auto {
   position: absolute;
