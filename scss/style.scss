@@ -17,7 +17,7 @@
     margin: 0 auto;
     position: relative;
 
-    h1 {
+    >h1 {
       position: absolute;
       left: 0;
       height: 100%;
@@ -85,6 +85,13 @@
       h1 {
         a {
           @include title();
+        }
+      }
+
+      #gnbMo {
+        li a {
+          display: block;
+          padding: 20px;
         }
       }
     }

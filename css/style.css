@@ -40,14 +40,14 @@ th {
   margin: 0 auto;
   position: relative;
 }
-#header .inner h1 {
+#header .inner > h1 {
   position: absolute;
   left: 0;
   height: 100%;
   display: flex;
   align-items: center;
 }
-#header .inner h1 a {
+#header .inner > h1 a {
   color: #eee;
   font: bold 24px "Orbitron";
   letter-spacing: 1.5px;
@@ -105,6 +105,10 @@ th {
   color: #eee;
   font: bold 24px "Orbitron";
   letter-spacing: 1.5px;
+}
+#header .inner .menuMo #gnbMo li a {
+  display: block;
+  padding: 20px;
 }
 
 #visual {
