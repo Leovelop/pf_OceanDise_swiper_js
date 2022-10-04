@@ -101,6 +101,11 @@ th {
   z-index: 10;
   transition: 0.5s;
 }
+#header .inner .menuMo h1 a {
+  color: #eee;
+  font: bold 24px "Orbitron";
+  letter-spacing: 1.5px;
+}
 
 #visual {
   width: 100%;

@@ -81,6 +81,12 @@
       right: 0;
       z-index: 10;
       transition: 0.5s;
+
+      h1 {
+        a {
+          @include title();
+        }
+      }
     }
   }
 }
