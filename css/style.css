@@ -91,6 +91,9 @@ th {
   display: block;
   clear: both;
 }
+#header .inner .menuMo {
+  width: 240px;
+}
 
 #visual {
   width: 100%;
