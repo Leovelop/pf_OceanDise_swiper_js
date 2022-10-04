@@ -98,6 +98,8 @@ th {
   position: fixed;
   top: 0;
   right: 0;
+  z-index: 10;
+  transition: 0.5s;
 }
 
 #visual {
