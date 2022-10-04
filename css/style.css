@@ -95,6 +95,9 @@ th {
   width: 240px;
   height: 100vh;
   background: #172533;
+  position: fixed;
+  top: 0;
+  right: 0;
 }
 
 #visual {
