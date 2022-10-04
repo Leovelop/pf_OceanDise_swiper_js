@@ -52,18 +52,18 @@ th {
   font: bold 24px "Orbitron";
   letter-spacing: 1.5px;
 }
-#header .inner #gnb {
+#header .inner .menuWeb #gnb {
   position: absolute;
   height: auto;
   left: 20%;
   top: 50%;
   transform: translateY(-50%);
 }
-#header .inner #gnb li {
+#header .inner .menuWeb #gnb li {
   float: left;
   position: relative;
 }
-#header .inner #gnb li a {
+#header .inner .menuWeb #gnb li a {
   display: block;
   width: 100%;
   padding: 0px 20px;
@@ -71,7 +71,7 @@ th {
   font: normal 14px "Orbitron";
   letter-spacing: 1.5px;
 }
-#header .inner #gnb li a::after {
+#header .inner .menuWeb #gnb li a::after {
   content: "";
   position: absolute;
   left: calc(50% - 10px);
@@ -82,11 +82,11 @@ th {
   opacity: 0;
   transition: 0.3s;
 }
-#header .inner #gnb li:hover a::after {
+#header .inner .menuWeb #gnb li:hover a::after {
   bottom: -50%;
   opacity: 1;
 }
-#header .inner #gnb::after {
+#header .inner .menuWeb #gnb::after {
   content: "";
   display: block;
   clear: both;

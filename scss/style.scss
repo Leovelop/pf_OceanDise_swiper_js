@@ -29,45 +29,47 @@
       }
     }
 
-    #gnb {
-      position: absolute;
-      height: auto;
-      left: 20%;
-      top: 50%;
-      transform: translateY(-50%);
-
-      li {
-        float: left;
-        position: relative;
-
-        a {
-          display: block;
-          width: 100%;
-          padding: 0px 20px;
-          @include title($fontWeight: normal, $fontSize: 14px);
-
-          &::after {
-            content: '';
-            position: absolute;
-            left: calc(50% - ($btnEffectWid / 2));
-            bottom: - 80%;
-            width: $btnEffectWid;
-            height: $btnEffectHt;
-            background: aqua;
-            opacity: 0;
-            transition: 0.3s;
+    .menuWeb {
+      #gnb {
+        position: absolute;
+        height: auto;
+        left: 20%;
+        top: 50%;
+        transform: translateY(-50%);
+  
+        li {
+          float: left;
+          position: relative;
+  
+          a {
+            display: block;
+            width: 100%;
+            padding: 0px 20px;
+            @include title($fontWeight: normal, $fontSize: 14px);
+  
+            &::after {
+              content: '';
+              position: absolute;
+              left: calc(50% - ($btnEffectWid / 2));
+              bottom: - 80%;
+              width: $btnEffectWid;
+              height: $btnEffectHt;
+              background: aqua;
+              opacity: 0;
+              transition: 0.3s;
+            }
+          }
+  
+          &:hover {
+            a::after {
+              bottom: - 50%;
+              opacity: 1;
+            }
           }
         }
-
-        &:hover {
-          a::after {
-            bottom: - 50%;
-            opacity: 1;
-          }
-        }
+  
+        @include floatRelease();
       }
-
-      @include floatRelease();
     }
   }
 }
