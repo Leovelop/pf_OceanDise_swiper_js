@@ -100,7 +100,8 @@
           display: block;
           padding: 20px 0px;
           color: #fff;
-          //font: normal 18px/1 'orbitron';
+          @include title($fontWeight: normal, $fontSize: 14px);
+
         }
       }
     }
