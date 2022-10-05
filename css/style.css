@@ -92,12 +92,12 @@ th {
   clear: both;
 }
 #header .inner .menuMo {
-  width: 240px;
+  width: 400px;
   height: 100vh;
   background: #172533;
   position: fixed;
   top: 0;
-  right: 0;
+  left: 0;
   z-index: 10;
   transition: 0.5s;
   padding: 40px 20px;
