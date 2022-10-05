@@ -92,11 +92,11 @@
       }
 
       #gnbMo {
-        text-align: center;
-
         li a {
+          text-align: center;
           display: block;
-          padding: 20px;
+          padding: 20px 0px;
+          color: #aaa;
         }
       }
     }

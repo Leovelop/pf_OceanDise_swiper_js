@@ -110,12 +110,11 @@ th {
   font: bold 24px "Orbitron";
   letter-spacing: 1.5px;
 }
-#header .inner .menuMo #gnbMo {
-  text-align: center;
-}
 #header .inner .menuMo #gnbMo li a {
+  text-align: center;
   display: block;
-  padding: 20px;
+  padding: 20px 0px;
+  color: #aaa;
 }
 
 #visual {
