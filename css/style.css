@@ -94,7 +94,7 @@ th {
 #header .inner .menuMo {
   width: 400px;
   height: 100vh;
-  background: #172533;
+  background: rgba(255, 255, 255, 0.4);
   position: fixed;
   top: 0;
   left: 0;
