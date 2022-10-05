@@ -36,17 +36,17 @@
         left: 20%;
         top: 50%;
         transform: translateY(-50%);
-  
+
         li {
           float: left;
           position: relative;
-  
+
           a {
             display: block;
             width: 100%;
             padding: 0px 20px;
             @include title($fontWeight: normal, $fontSize: 14px);
-  
+
             &::after {
               content: '';
               position: absolute;
@@ -59,7 +59,7 @@
               transition: 0.3s;
             }
           }
-  
+
           &:hover {
             a::after {
               bottom: - 50%;
@@ -67,7 +67,7 @@
             }
           }
         }
-  
+
         @include floatRelease();
       }
     }
@@ -84,12 +84,16 @@
       padding: 40px 20px;
 
       h1 {
+        text-align: center;
+
         a {
           @include title();
         }
       }
 
       #gnbMo {
+        text-align: center;
+
         li a {
           display: block;
           padding: 20px;
