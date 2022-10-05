@@ -76,12 +76,18 @@
       width: 400px;
       height: 100vh;
       background: #172533;
+      //filter: blur(5px);
       position: fixed;
       top: 0;
       left: 0;
       z-index: 10;
       transition: 0.5s;
       padding: 40px 20px;
+
+      &::before {
+        content: '';
+        z-index: -1;
+      }
 
       h1 {
         text-align: center;
