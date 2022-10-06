@@ -92,7 +92,7 @@ th {
   clear: both;
 }
 #header .inner .menuMo {
-  width: 400px;
+  width: 300px;
   height: 100vh;
   background: rgba(23, 37, 51, 0.6);
   position: fixed;
@@ -100,11 +100,11 @@ th {
   left: 0;
   z-index: 10;
   transition: 0.5s;
-  padding: 40px 20px;
+  padding: 40px 30px;
   backdrop-filter: blur(10px);
 }
 #header .inner .menuMo h1 {
-  text-align: center;
+  margin-bottom: 20px;
 }
 #header .inner .menuMo h1 a {
   color: #eee;
@@ -112,7 +112,7 @@ th {
   letter-spacing: 1.5px;
 }
 #header .inner .menuMo #gnbMo li a {
-  text-align: center;
+  text-align: left;
   display: block;
   padding: 20px 0px;
   color: #fff;
