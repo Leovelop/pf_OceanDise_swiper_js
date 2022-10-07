@@ -122,7 +122,7 @@ th {
   letter-spacing: 1.5px;
   transition: 0.5s;
   transform: scale(1);
-  transform-origin: left left;
+  transform-origin: left center;
 }
 #header .inner .menuMo #gnbMo li a:hover {
   background: #172533;
