@@ -50,8 +50,8 @@
             &::after {
               content: '';
               position: absolute;
-              //left: 0;
-              bottom: - 80%;
+              left: 0;
+              bottom: -10px;
               width: 100%;
               height: $btnEffectHt;
               background: aqua;

@@ -74,7 +74,8 @@ th {
 #header .inner .menuWeb #gnb li a::after {
   content: "";
   position: absolute;
-  bottom: -80%;
+  left: 0;
+  bottom: -10px;
   width: 100%;
   height: 4px;
   background: aqua;
