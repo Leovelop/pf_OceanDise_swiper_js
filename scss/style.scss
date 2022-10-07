@@ -98,19 +98,21 @@
 
       #gnbMo {
 
-        li a {
-          text-align: left;
-          display: block;
-          padding: 20px 40px;
-          color: #fff;
-          @include title($fontWeight: normal, $fontSize: 14px);
-          transition: 0.5s;
-          transform: scale(1);
-          transform-origin: left left;
-
-          &:hover {
-            background: #172533;
-            transform: scale(1.2);
+        li {
+          a {
+            text-align: left;
+            display: block;
+            padding: 20px 40px;
+            color: #fff;
+            @include title($fontWeight: normal, $fontSize: 14px);
+            transition: 0.5s;
+            transform: scale(1);
+            transform-origin: left left;
+  
+            &:hover {
+              background: #172533;
+              transform: scale(1.2);
+            }
           }
         }
       }
