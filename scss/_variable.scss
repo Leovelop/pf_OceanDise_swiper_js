@@ -1,4 +1,4 @@
-@mixin title($fontWeight: bold, $fontSize: 24px, $fontFamily: 'Orbitron') {
+@mixin title($fontWeight: bold, $fontSize: 22px, $fontFamily: 'Orbitron') {
   color: #eee;
   font: $fontWeight calc($fontSize / 1) $fontFamily;
   letter-spacing: 1.5px;
