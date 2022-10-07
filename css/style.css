@@ -121,9 +121,12 @@ th {
   font: normal 14px "Orbitron";
   letter-spacing: 1.5px;
   transition: 0.5s;
+  transform: scale(1);
+  transform-origin: left left;
 }
 #header .inner .menuMo #gnbMo li a:hover {
   background: #172533;
+  transform: scale(1.2);
 }
 
 #visual {
