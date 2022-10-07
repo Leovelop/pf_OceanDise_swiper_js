@@ -120,7 +120,7 @@ th {
   color: #eee;
   font: normal 14px "Orbitron";
   letter-spacing: 1.5px;
-  transition: 0.5s;
+  transition: 1s;
   transform: scale(1);
   transform-origin: left center;
 }

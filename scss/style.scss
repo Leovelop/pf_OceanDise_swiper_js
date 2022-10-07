@@ -104,7 +104,7 @@
             padding: 20px 40px;
             color: #fff;
             @include title($fontWeight: normal, $fontSize: 14px);
-            transition: 0.5s;
+            transition: 1s;
             transform: scale(1);
             transform-origin: left center;
   
