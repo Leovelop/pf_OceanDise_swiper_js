@@ -50,12 +50,12 @@
             &::after {
               content: '';
               position: absolute;
-              left: calc(50% - ($btnEffectWid / 2));
+              //left: 0;
               bottom: - 80%;
-              width: $btnEffectWid;
+              width: 100%;
               height: $btnEffectHt;
               background: aqua;
-              opacity: 0;
+              opacity: 1;
               transition: 0.3s;
             }
           }
