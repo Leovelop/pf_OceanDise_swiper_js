@@ -107,10 +107,12 @@
             transition: 1s;
             transform: scale(1);
             transform-origin: left center;
+            opacity: 0.6;
   
             &:hover {
-              background: #172533;
-              transform: scale(1.2);
+              background: linear-gradient(to right, #172533, transparent);
+              transform: scale(1.3);
+              opacity: 1;
             }
           }
         }
