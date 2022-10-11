@@ -70,6 +70,7 @@ th {
   color: #eee;
   font: normal 12px "Orbitron";
   letter-spacing: 1.5px;
+  opacity: 0.4;
 }
 #header .inner .menuWeb #gnb li a::after {
   content: "";
