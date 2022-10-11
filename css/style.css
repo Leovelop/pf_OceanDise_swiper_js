@@ -33,6 +33,7 @@ th {
   top: 0;
   left: 0;
   z-index: 1;
+  backdrop-filter: blur(10px);
 }
 #header .inner {
   width: 1180px;
@@ -58,6 +59,7 @@ th {
   left: 20%;
   top: 50%;
   transform: translateY(-50%);
+  backdrop-filter: blur(10px);
 }
 #header .inner .menuWeb #gnb li {
   float: left;
@@ -92,6 +94,7 @@ th {
   clear: both;
 }
 #header .inner .menuMo {
+  display: none;
   width: 300px;
   height: 100vh;
   background: rgba(23, 37, 51, 0.4);
