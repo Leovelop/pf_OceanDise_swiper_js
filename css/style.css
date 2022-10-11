@@ -33,7 +33,6 @@ th {
   top: 0;
   left: 0;
   z-index: 1;
-  backdrop-filter: blur(10px);
 }
 #header .inner {
   width: 1180px;
