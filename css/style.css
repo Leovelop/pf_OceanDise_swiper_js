@@ -59,7 +59,6 @@ th {
   left: 20%;
   top: 50%;
   transform: translateY(-50%);
-  backdrop-filter: blur(10px);
 }
 #header .inner .menuWeb #gnb li {
   float: left;
