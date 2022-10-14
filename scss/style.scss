@@ -47,6 +47,10 @@
           justify-content: center;
           align-items: center;
 
+          &::after {
+            content: '';
+          }
+
           a {
             display: block;
             width: 100%;

@@ -68,6 +68,9 @@ th {
   justify-content: center;
   align-items: center;
 }
+#header .inner .menuWeb #gnb li::after {
+  content: "";
+}
 #header .inner .menuWeb #gnb li a {
   display: block;
   width: 100%;
