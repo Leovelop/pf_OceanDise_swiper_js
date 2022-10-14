@@ -50,7 +50,7 @@
             padding: 0px 20px;
             @include title($fontWeight: normal, $fontSize: 12px);
 
-            &::after {
+            /*&::after {
               content: '';
               position: absolute;
               left: 0;
@@ -60,7 +60,7 @@
               background: aqua;
               opacity: 1;
               transition: 0.3s;
-            }
+            }*/
           }
 
           &:hover {
