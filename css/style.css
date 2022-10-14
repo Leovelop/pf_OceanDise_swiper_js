@@ -64,6 +64,9 @@ th {
   float: left;
   height: inherit;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #header .inner .menuWeb #gnb li a {
   display: block;

@@ -43,6 +43,9 @@
           float: left;
           height: inherit;
           position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
 
           a {
             display: block;
