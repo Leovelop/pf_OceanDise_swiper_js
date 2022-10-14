@@ -67,11 +67,10 @@ th {
 }
 #header .inner .menuWeb #gnb li::after {
   content: "";
-  width: 100%;
+  width: 0%;
   height: 1px;
   position: absolute;
   bottom: 0px;
-  left: 0px;
   background: aqua;
   opacity: 0;
   transition: 0.5s;
@@ -88,6 +87,7 @@ th {
   letter-spacing: 1.5px;
 }
 #header .inner .menuWeb #gnb li:hover::after {
+  width: 100%;
   opacity: 1;
 }
 #header .inner .menuWeb #gnb::after {
