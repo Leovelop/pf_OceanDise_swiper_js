@@ -55,7 +55,7 @@ th {
 }
 #header .inner .menuWeb #gnb {
   position: absolute;
-  height: auto;
+  height: 100%;
   left: 20%;
   top: 50%;
   transform: translateY(-50%);
@@ -63,6 +63,7 @@ th {
 }
 #header .inner .menuWeb #gnb li {
   float: left;
+  height: inherit;
   position: relative;
 }
 #header .inner .menuWeb #gnb li a {
