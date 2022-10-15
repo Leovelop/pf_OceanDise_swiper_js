@@ -81,7 +81,7 @@
           }
 
           &:hover {
-            &::after {
+            &::before, &::after {
               width: 50%;
               opacity: 1;
             }

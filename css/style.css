@@ -98,7 +98,7 @@ th {
   font: normal 12px "Orbitron";
   letter-spacing: 1.5px;
 }
-#header .inner .menuWeb #gnb li:hover::after {
+#header .inner .menuWeb #gnb li:hover::before, #header .inner .menuWeb #gnb li:hover::after {
   width: 50%;
   opacity: 1;
 }
