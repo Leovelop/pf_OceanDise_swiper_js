@@ -50,8 +50,8 @@
             height: 2px;
             position: absolute;
             bottom: -1px;
-            left: 50%;
-            transform: translateX(-50%);
+            left: 0%;
+            //transform: translateX(-50%);
             background: aqua;
             opacity: 0;
             transition: opacity 0.3s, width 0.5s;
@@ -69,7 +69,7 @@
 
           &:hover {
             &::after {
-              width: 100%;
+              width: 50%;
               opacity: 1;
             }
           }
