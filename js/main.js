@@ -17,7 +17,7 @@ let swiper = new Swiper("#wrap", {
     prevEl: ".swiper-button-prev"
   },
   autoplay: {
-    delay: 3000,
+    delay: 2000,
     disableOnInteraction: false,
   },
   mousewheel: true,
