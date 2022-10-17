@@ -255,15 +255,10 @@
       }
       
       &::after {
-        filter: brightness(200%);
-        opacity: 0.5;
-        transition: 0.5s;
+        display: none;
       }
 
       &:hover {
-        &::after {
-          opacity: 1;
-        }
       }
     }
   }
