@@ -87,6 +87,9 @@ th {
   opacity: 0;
   transition: opacity 0.3s, width 0.5s;
 }
+#header .inner .menuWeb #gnb li::before {
+  left: 0%;
+}
 #header .inner .menuWeb #gnb li a {
   display: flex;
   justify-content: center;

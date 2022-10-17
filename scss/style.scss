@@ -56,6 +56,10 @@
             transition: opacity 0.3s, width 0.5s;
           }
 
+          &::before {
+            left: 0%;
+          }
+
           /*&::before {
             content: '';
             width: 0%;
