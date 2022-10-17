@@ -234,6 +234,12 @@ th {
 }
 #wrap .swiper-button .swiper-button-prev,
 #wrap .swiper-button .swiper-button-next {
+  width: 50px;
+}
+#wrap .swiper-button .swiper-button-prev > div,
+#wrap .swiper-button .swiper-button-next > div {
+  width: 100%;
+  height: 100%;
   background: rgba(0, 0, 0, 0.5);
 }
 #wrap .swiper-button .swiper-button-prev::after,
