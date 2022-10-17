@@ -64,25 +64,25 @@ th {
   float: left;
   height: inherit;
   position: relative;
+  /*&::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    bottom: -1px;
+    left: 0%;
+    background: aqua;
+    opacity: 0;
+    transition: opacity 0.3s, width 0.5s;
+  }*/
 }
-#header .inner .menuWeb #gnb li::after {
+#header .inner .menuWeb #gnb li::before, #header .inner .menuWeb #gnb li::after {
   content: "";
   width: 0%;
   height: 2px;
   position: absolute;
   bottom: -1px;
   right: 0%;
-  background: aqua;
-  opacity: 0;
-  transition: opacity 0.3s, width 0.5s;
-}
-#header .inner .menuWeb #gnb li::before {
-  content: "";
-  width: 0%;
-  height: 2px;
-  position: absolute;
-  bottom: -1px;
-  left: 0%;
   background: aqua;
   opacity: 0;
   transition: opacity 0.3s, width 0.5s;
