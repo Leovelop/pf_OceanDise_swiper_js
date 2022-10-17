@@ -232,6 +232,10 @@ th {
   width: 400px;
   margin-left: -200px;
 }
+#wrap .swiper-button .swiper-button-prev,
+#wrap .swiper-button .swiper-button-next {
+  background: rgba(0, 0, 0, 0.5);
+}
 #wrap .swiper-button .swiper-button-prev::after,
 #wrap .swiper-button .swiper-button-next::after {
   filter: brightness(200%);
