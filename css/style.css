@@ -90,6 +90,9 @@ th {
 #header .inner .menuWeb #gnb li::before {
   left: 0%;
 }
+#header .inner .menuWeb #gnb li::after {
+  right: 0%;
+}
 #header .inner .menuWeb #gnb li a {
   display: flex;
   justify-content: center;

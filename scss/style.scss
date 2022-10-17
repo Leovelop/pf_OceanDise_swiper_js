@@ -60,6 +60,10 @@
             left: 0%;
           }
 
+          &::after {
+            right: 0%;
+          }
+
           /*&::before {
             content: '';
             width: 0%;
