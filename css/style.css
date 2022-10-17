@@ -82,7 +82,6 @@ th {
   height: 2px;
   position: absolute;
   bottom: -1px;
-  right: 0%;
   background: aqua;
   opacity: 0;
   transition: opacity 0.3s, width 0.5s;
