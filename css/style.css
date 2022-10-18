@@ -247,6 +247,10 @@ th {
 #wrap .swiper-button .swiper-button-next > div::before,
 #wrap .swiper-button .swiper-button-next > div::after {
   content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #fff;
 }
 #wrap .swiper-button .swiper-button-prev::after,
 #wrap .swiper-button .swiper-button-next::after {
