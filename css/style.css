@@ -242,8 +242,9 @@ th {
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
 }
-#wrap .swiper-button .swiper-button-prev > div::before,
-#wrap .swiper-button .swiper-button-next > div::before {
+#wrap .swiper-button .swiper-button-prev > div::before, #wrap .swiper-button .swiper-button-prev > div::after,
+#wrap .swiper-button .swiper-button-next > div::before,
+#wrap .swiper-button .swiper-button-next > div::after {
   content: "";
 }
 #wrap .swiper-button .swiper-button-prev::after,
