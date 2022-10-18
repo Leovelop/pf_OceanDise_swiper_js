@@ -261,6 +261,11 @@
           height: 2px;
           background: #fff;
         }
+
+        &::before {
+          top: 0;
+          left: 0;
+        }
       }
       
       &::after {
