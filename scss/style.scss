@@ -256,18 +256,22 @@
         background: rgba(0, 0, 0, 0.5);
         position: relative;
 
+        $arrowWid: 16px;
+
         &::before, &::after {
           content: '';
           position: absolute;
-          width: 20px;
+          width: $arrowWid;
           height: 2px;
           background: #fff;
           //transform-origin: left center;
           top: calc(50% - 1px);
           left: calc(50% - 10px);
+          border-radius: 1px;
         }
 
         &::before {
+          transform: rotate(-45deg);
         }
 
         &::after {

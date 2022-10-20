@@ -250,11 +250,16 @@ th {
 #wrap .swiper-button .swiper-button-next > div::after {
   content: "";
   position: absolute;
-  width: 20px;
+  width: 16px;
   height: 2px;
   background: #fff;
   top: calc(50% - 1px);
   left: calc(50% - 10px);
+  border-radius: 1px;
+}
+#wrap .swiper-button .swiper-button-prev > div::before,
+#wrap .swiper-button .swiper-button-next > div::before {
+  transform: rotate(-45deg);
 }
 #wrap .swiper-button .swiper-button-prev > div::after,
 #wrap .swiper-button .swiper-button-next > div::after {
