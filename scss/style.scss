@@ -256,17 +256,18 @@
         background: rgba(0, 0, 0, 0.5);
         position: relative;
 
-        $arrowWid: 16px;
+        $arrowWid: 14px;
+        $arrowHt: 2px;
 
         &::before, &::after {
           content: '';
           position: absolute;
           width: $arrowWid;
-          height: 2px;
+          height: $arrowHt;
           background: #fff;
           //transform-origin: left center;
-          top: calc(50% - 1px);
-          left: calc(50% - 10px);
+          top: calc(50% - ($arrowHt / 1));
+          left: calc(50% - ($arrowWid / 2));
           border-radius: 1px;
         }
 

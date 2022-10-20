@@ -250,11 +250,11 @@ th {
 #wrap .swiper-button .swiper-button-next > div::after {
   content: "";
   position: absolute;
-  width: 16px;
+  width: 14px;
   height: 2px;
   background: #fff;
-  top: calc(50% - 1px);
-  left: calc(50% - 10px);
+  top: calc(50% - 2px);
+  left: calc(50% - 7px);
   border-radius: 1px;
 }
 #wrap .swiper-button .swiper-button-prev > div::before,
