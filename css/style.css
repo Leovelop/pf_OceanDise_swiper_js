@@ -256,7 +256,6 @@ th {
   transform-origin: center left;
   top: calc(50% - 2px);
   left: calc(50% - 7px);
-  border-radius: 1px;
 }
 #wrap .swiper-button .swiper-button-prev > div::before,
 #wrap .swiper-button .swiper-button-next > div::before {
@@ -264,7 +263,7 @@ th {
 }
 #wrap .swiper-button .swiper-button-prev > div::after,
 #wrap .swiper-button .swiper-button-next > div::after {
-  display: none;
+  transform: rotate(45deg);
 }
 #wrap .swiper-button .swiper-button-prev::after,
 #wrap .swiper-button .swiper-button-next::after {

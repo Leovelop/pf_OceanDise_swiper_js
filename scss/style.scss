@@ -268,15 +268,15 @@
           transform-origin: center left;
           top: calc(50% - ($arrowHt / 1));
           left: calc(50% - ($arrowWid / 2));
-          border-radius: 1px;
         }
 
         &::before {
+          
           transform: rotate(-45deg);
         }
 
         &::after {
-          display: none;
+          transform: rotate(45deg);
         }
       }
       
