@@ -266,12 +266,12 @@
           height: $arrowHt;
           background: #fff;
           transform-origin: center left;
-          top: calc(50% - ($arrowHt / 1));
           left: calc(50% - ($arrowWid / 2));
           //border-radius: 1px;
         }
 
         &::before {
+          top: calc(50% - ($arrowHt / 1));
           border-top-right-radius: 1px;
           border-bottom-right-radius: 1px;
           transform: rotate(-45deg);
@@ -279,6 +279,7 @@
 
         &::after {
           //display: none;
+          bottom: calc(50% - ($arrowHt / 1));
           transform: rotate(45deg);
         }
       }
