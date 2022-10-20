@@ -256,7 +256,7 @@
         background: rgba(0, 0, 0, 0.5);
         position: relative;
 
-        $arrowWid: 14px;
+        $arrowWid: 12px;
         $arrowHt: 2px;
 
         &::before, &::after {
@@ -268,14 +268,17 @@
           transform-origin: center left;
           top: calc(50% - ($arrowHt / 1));
           left: calc(50% - ($arrowWid / 2));
+          //border-radius: 1px;
         }
 
         &::before {
-          
+          border-top-right-radius: 1px;
+          border-bottom-right-radius: 1px;
           transform: rotate(-45deg);
         }
 
         &::after {
+          //display: none;
           transform: rotate(45deg);
         }
       }
