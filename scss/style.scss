@@ -271,7 +271,7 @@
         }
 
         &::before {
-          top: calc(50% - ($arrowHt / 1));
+          top: calc(50% - ($arrowHt / 2));
           border-top-right-radius: 1px;
           border-bottom-right-radius: 1px;
           transform: rotate(-45deg);
@@ -279,7 +279,7 @@
 
         &::after {
           //display: none;
-          bottom: calc(50% - ($arrowHt / 1));
+          bottom: calc(50% - ($arrowHt / 2));
           transform: rotate(45deg);
         }
       }
