@@ -265,12 +265,13 @@
         }
 
         &::before {
-          top: 0;
+          top: 50%;
           left: 0;
         }
 
         &::after {
-          bottom: 0;
+          //display: none;
+          top: 50%;
           right: 0;
         }
       }

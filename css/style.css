@@ -256,12 +256,12 @@ th {
 }
 #wrap .swiper-button .swiper-button-prev > div::before,
 #wrap .swiper-button .swiper-button-next > div::before {
-  top: 0;
+  top: 50%;
   left: 0;
 }
 #wrap .swiper-button .swiper-button-prev > div::after,
 #wrap .swiper-button .swiper-button-next > div::after {
-  bottom: 0;
+  top: 50%;
   right: 0;
 }
 #wrap .swiper-button .swiper-button-prev::after,
