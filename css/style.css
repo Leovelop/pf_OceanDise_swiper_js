@@ -253,16 +253,12 @@ th {
   width: 20px;
   height: 2px;
   background: #fff;
-}
-#wrap .swiper-button .swiper-button-prev > div::before,
-#wrap .swiper-button .swiper-button-next > div::before {
   top: 50%;
   left: 0;
 }
 #wrap .swiper-button .swiper-button-prev > div::after,
 #wrap .swiper-button .swiper-button-next > div::after {
-  top: 50%;
-  right: 0;
+  display: none;
 }
 #wrap .swiper-button .swiper-button-prev::after,
 #wrap .swiper-button .swiper-button-next::after {

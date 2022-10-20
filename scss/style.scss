@@ -262,17 +262,16 @@
           width: 20px;
           height: 2px;
           background: #fff;
-        }
-
-        &::before {
+          //transform-origin: left center;
           top: 50%;
           left: 0;
         }
 
+        &::before {
+        }
+
         &::after {
-          //display: none;
-          top: 50%;
-          right: 0;
+          display: none;
         }
       }
       
