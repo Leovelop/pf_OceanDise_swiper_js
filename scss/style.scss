@@ -264,7 +264,7 @@
           background: #fff;
           //transform-origin: left center;
           top: 50%;
-          left: 0;
+          left: calc(50% - 10px);
         }
 
         &::before {
