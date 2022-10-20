@@ -265,7 +265,7 @@
           width: $arrowWid;
           height: $arrowHt;
           background: #fff;
-          //transform-origin: left center;
+          transform-origin: center left;
           top: calc(50% - ($arrowHt / 1));
           left: calc(50% - ($arrowWid / 2));
           border-radius: 1px;

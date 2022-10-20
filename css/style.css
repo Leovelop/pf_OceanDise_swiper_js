@@ -253,6 +253,7 @@ th {
   width: 14px;
   height: 2px;
   background: #fff;
+  transform-origin: center left;
   top: calc(50% - 2px);
   left: calc(50% - 7px);
   border-radius: 1px;
