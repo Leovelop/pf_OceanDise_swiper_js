@@ -263,7 +263,7 @@
           height: 2px;
           background: #fff;
           //transform-origin: left center;
-          top: 50%;
+          top: calc(50% - 1px);
           left: calc(50% - 10px);
         }
 

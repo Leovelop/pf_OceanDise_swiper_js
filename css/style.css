@@ -253,7 +253,7 @@ th {
   width: 20px;
   height: 2px;
   background: #fff;
-  top: 50%;
+  top: calc(50% - 1px);
   left: calc(50% - 10px);
 }
 #wrap .swiper-button .swiper-button-prev > div::after,
