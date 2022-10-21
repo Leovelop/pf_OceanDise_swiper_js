@@ -398,3 +398,21 @@
     transform: rotate(- 45deg) translateX(0px);
   }
 }
+
+@keyframes moveArrow2 {
+  0% {
+    transform: rotate(45deg) translateX(0px);
+  }
+
+  49% {
+    transform: rotate(45deg) translateX(50px);
+  }
+
+  50% {
+    transform: rotate(45deg) translateX(-50px);
+  }
+
+  100% {
+    transform: rotate(45deg) translateX(0px);
+  }
+}
