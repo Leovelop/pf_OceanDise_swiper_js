@@ -260,6 +260,7 @@ th {
   top: calc(50% - 1px);
   border-top-right-radius: 1px;
   border-bottom-right-radius: 1px;
+  transition: 0.75s;
 }
 #wrap .swiper-button .swiper-button-prev > div::before,
 #wrap .swiper-button .swiper-button-next > div::before {
@@ -272,6 +273,10 @@ th {
 #wrap .swiper-button .swiper-button-prev::after,
 #wrap .swiper-button .swiper-button-next::after {
   display: none;
+}
+#wrap .swiper-button .swiper-button-prev:hover > div::before,
+#wrap .swiper-button .swiper-button-next:hover > div::before {
+  animation: moveArrow1 0.75s;
 }
 #wrap .swiper-button .swiper-button-next > div {
   transform: rotateY(180deg);
@@ -341,18 +346,18 @@ th {
     transform: scale(1.2);
   }
 }
-@keyframes moveArrow {
+@keyframes moveArrow1 {
   0% {
-    transform: translateX(0px);
+    transform: rotate(-45deg) translateX(0px);
   }
   49% {
-    transform: translateX(50px);
+    transform: rotate(-45deg) translateX(50px);
   }
   50% {
-    transform: translateX(-50px);
+    transform: rotate(-45deg) translateX(-50px);
   }
   100% {
-    transform: translateX(0px);
+    transform: rotate(-45deg) translateX(0px);
   }
 }
 

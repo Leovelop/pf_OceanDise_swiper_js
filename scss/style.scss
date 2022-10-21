@@ -271,6 +271,7 @@
           top: calc(50% - ($arrowHt / 2));
           border-top-right-radius: 1px;
           border-bottom-right-radius: 1px;
+          transition: 0.75s;
         }
 
         &::before {
@@ -287,6 +288,11 @@
       }
 
       &:hover {
+        >div {
+          &::before {
+            animation: moveArrow1 0.75s;
+          }
+        }
       }
     }
 
@@ -375,20 +381,20 @@
 }
 
 //prev, next 버튼 애니메이션
-@keyframes moveArrow {
+@keyframes moveArrow1 {
   0% {
-    transform: translateX(0px);
+    transform: rotate(- 45deg) translateX(0px);
   }
 
   49% {
-    transform: translateX(50px);
+    transform: rotate(- 45deg) translateX(50px);
   }
 
   50% {
-    transform: translateX(-50px);
+    transform: rotate(- 45deg) translateX(-50px);
   }
 
   100% {
-    transform: translateX(0px);
+    transform: rotate(- 45deg) translateX(0px);
   }
 }
