@@ -266,7 +266,7 @@
           height: $arrowHt;
           background: #fff;
           transform-origin: center left;
-          left: calc(50% - ($arrowWid / 2));
+          left: calc(50% - ($arrowWid / 2) + 1px);
           top: calc(50% - ($arrowHt / 2));
         }
 
@@ -288,6 +288,12 @@
       }
 
       &:hover {
+      }
+    }
+
+    .swiper-button-next {
+      >div {
+        transform: rotateY(180deg);
       }
     }
   }

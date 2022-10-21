@@ -254,7 +254,7 @@ th {
   height: 2px;
   background: #fff;
   transform-origin: center left;
-  left: calc(50% - 6px);
+  left: calc(50% - 6px + 1px);
   top: calc(50% - 1px);
 }
 #wrap .swiper-button .swiper-button-prev > div::before,
@@ -272,6 +272,9 @@ th {
 #wrap .swiper-button .swiper-button-prev::after,
 #wrap .swiper-button .swiper-button-next::after {
   display: none;
+}
+#wrap .swiper-button .swiper-button-next > div {
+  transform: rotateY(180deg);
 }
 #wrap .auto {
   position: absolute;
