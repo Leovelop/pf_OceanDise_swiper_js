@@ -255,6 +255,7 @@
         border-radius: 50%;
         background: rgba(0, 0, 0, 0.5);
         position: relative;
+        overflow: hidden;
 
         $arrowWid: 12px;
         $arrowHt: 2px;
