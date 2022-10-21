@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 * {
   margin: 0px;
@@ -326,6 +327,7 @@ th {
   top: -30%;
 }
 
+/* 애니메이션 */
 @keyframes ani {
   0% {
     opacity: 0;
@@ -337,6 +339,20 @@ th {
   100% {
     opacity: 0;
     transform: scale(1.2);
+  }
+}
+@keyframes moveArrow {
+  0% {
+    transform: translateX(0px);
+  }
+  49% {
+    transform: translateX(50px);
+  }
+  50% {
+    transform: translateX(-50px);
+  }
+  100% {
+    transform: translateX(0px);
   }
 }
 
