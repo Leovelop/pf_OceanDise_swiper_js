@@ -267,19 +267,20 @@
           background: #fff;
           transform-origin: center left;
           left: calc(50% - ($arrowWid / 2));
+          top: calc(50% - ($arrowHt / 2));
         }
 
         &::before {
           border-top-right-radius: 1px;
           border-bottom-right-radius: 1px;
-          transform: rotate(-45deg);
+          //transform: rotate(-45deg);
         }
 
         &::after {
           //display: none;
           border-top-right-radius: 1px;
           border-bottom-right-radius: 1px;
-          transform: rotate(45deg);
+          //transform: rotate(45deg);
         }
       }
       

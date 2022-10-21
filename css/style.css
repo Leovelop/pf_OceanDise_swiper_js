@@ -255,18 +255,17 @@ th {
   background: #fff;
   transform-origin: center left;
   left: calc(50% - 6px);
+  top: calc(50% - 1px);
 }
 #wrap .swiper-button .swiper-button-prev > div::before,
 #wrap .swiper-button .swiper-button-next > div::before {
   border-top-right-radius: 1px;
   border-bottom-right-radius: 1px;
-  transform: rotate(-45deg);
 }
 #wrap .swiper-button .swiper-button-prev > div::after,
 #wrap .swiper-button .swiper-button-next > div::after {
   border-top-right-radius: 1px;
   border-bottom-right-radius: 1px;
-  transform: rotate(45deg);
 }
 #wrap .swiper-button .swiper-button-prev::after,
 #wrap .swiper-button .swiper-button-next::after {
