@@ -292,6 +292,10 @@
           &::before {
             animation: moveArrow1 0.75s;
           }
+
+          &::after {
+            animation: moveArrow2 0.75s;
+          }
         }
       }
     }
