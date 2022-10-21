@@ -266,6 +266,8 @@ th {
 #wrap .swiper-button .swiper-button-prev > div::after,
 #wrap .swiper-button .swiper-button-next > div::after {
   bottom: calc(50% - 1px);
+  border-top-right-radius: 1px;
+  border-bottom-right-radius: 1px;
   transform: rotate(45deg);
 }
 #wrap .swiper-button .swiper-button-prev::after,

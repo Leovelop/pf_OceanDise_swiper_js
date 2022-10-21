@@ -280,6 +280,8 @@
         &::after {
           //display: none;
           bottom: calc(50% - ($arrowHt / 2));
+          border-top-right-radius: 1px;
+          border-bottom-right-radius: 1px;
           transform: rotate(45deg);
         }
       }
