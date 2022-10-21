@@ -273,14 +273,13 @@
         &::before {
           border-top-right-radius: 1px;
           border-bottom-right-radius: 1px;
-          transform: rotate(-45deg) /*translateX(1px)*/;
+          transform: rotate(- 45deg) translateX(- 1px);
         }
 
         &::after {
-          //display: none;
           border-top-right-radius: 1px;
           border-bottom-right-radius: 1px;
-          transform: rotate(45deg) /*translateX(- 1px)*/;
+          transform: rotate(45deg) translateX(- 1px);
         }
       }
       
