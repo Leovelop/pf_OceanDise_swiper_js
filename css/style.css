@@ -280,7 +280,7 @@ th {
 }
 #wrap .swiper-button .swiper-button-prev:hover > div::after,
 #wrap .swiper-button .swiper-button-next:hover > div::after {
-  animation: moveArrow2 0.75s;
+  animation: nextArrow 0.75s;
 }
 #wrap .swiper-button .swiper-button-next > div {
   transform: rotateY(180deg);
