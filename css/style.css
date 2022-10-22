@@ -364,7 +364,7 @@ th {
     transform: rotate(-45deg) translateX(0px);
   }
 }
-@keyframes moveArrow2 {
+@keyframes nextArrow {
   0% {
     transform: rotate(45deg) translateX(0px);
   }
