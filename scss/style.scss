@@ -290,7 +290,7 @@
       &:hover {
         >div {
           &::before {
-            animation: moveArrow1 0.75s;
+            animation: prevArrow 0.75s;
           }
 
           &::after {
