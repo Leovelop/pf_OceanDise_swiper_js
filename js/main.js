@@ -3,7 +3,7 @@ const btnPause = document.querySelector(".pause");
 
 let swiper = new Swiper("#wrap", {
   direction: "horizontal",
-  spaceBetween: 50,
+  spaceBetween: 30,
   loop: true,
   slidesPerView: "auto",
   centeredSlides: true,
@@ -24,7 +24,7 @@ let swiper = new Swiper("#wrap", {
   grabCursor: true,
   coverflowEffect: {
     rotate: 50,
-    stretch: 30,
+    stretch: 0,
     depth: 200,
     modifier: 1,
     slideShadows: true,
