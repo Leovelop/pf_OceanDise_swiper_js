@@ -170,12 +170,12 @@ th {
   height: 100%;
   position: absolute;
   top: 50%;
-  margin-top: -15vmax;
+  margin-top: -14vmax;
   z-index: 1;
 }
 #wrap .swiper-wrapper .swiper-slide {
-  width: 30vmax;
-  height: 30vmax;
+  width: 28vmax;
+  height: 28vmax;
   font-size: 100px;
   color: #111;
   border-radius: 20px;
