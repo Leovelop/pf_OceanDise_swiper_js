@@ -350,7 +350,7 @@ th {
     transform: scale(1.2);
   }
 }
-@keyframes moveArrow1 {
+@keyframes prevArrow {
   0% {
     transform: rotate(-45deg) translateX(0px);
   }
