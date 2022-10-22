@@ -178,7 +178,6 @@ th {
   height: 28vmax;
   font-size: 100px;
   color: #111;
-  border-radius: 20px;
   background: linear-gradient(45deg, royalblue, aqua);
   position: relative;
 }
