@@ -20,7 +20,6 @@ let swiper = new Swiper("#wrap", {
     delay: 2000,
     disableOnInteraction: false,
   },
-  mousewheel: true,
   effect: 'coverflow',
   grabCursor: true,
   coverflowEffect: {
