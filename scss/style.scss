@@ -45,7 +45,8 @@
           height: inherit;
           position: relative;
 
-          &::before, &::after {
+          &::before,
+          &::after {
             content: '';
             width: 0%;
             height: 2px;
@@ -75,7 +76,9 @@
           }
 
           &:hover {
-            &::before, &::after {
+
+            &::before,
+            &::after {
               width: 50%;
               opacity: 1;
             }
@@ -106,6 +109,7 @@
 
         a {
           @include title();
+          text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.4);
         }
       }
 
@@ -125,7 +129,7 @@
 
             &:hover {
               background: linear-gradient(to right, $bgColor, $bgColor, transparent);
-              transform: scale(1.2);
+              transform: scale(1.15);
               opacity: 1;
             }
           }
@@ -261,7 +265,8 @@
         $arrowWid: 12px;
         $arrowHt: 2px;
 
-        &::before, &::after {
+        &::before,
+        &::after {
           content: '';
           position: absolute;
           width: $arrowWid;
@@ -283,7 +288,7 @@
           transform: rotate(45deg) translateX(- 1px);
         }
       }
-      
+
       &::after {
         display: none;
       }
