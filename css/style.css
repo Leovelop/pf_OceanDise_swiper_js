@@ -137,7 +137,7 @@ th {
   opacity: 0.6;
 }
 #header .inner .menuMo #gnbMo li a:hover {
-  background: linear-gradient(to right, #15202c, transparent);
+  background: linear-gradient(to right, #15202c, #15202c, transparent);
   transform: scale(1.2);
   opacity: 1;
 }

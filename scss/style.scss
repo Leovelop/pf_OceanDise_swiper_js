@@ -124,7 +124,7 @@
             opacity: 0.6;
 
             &:hover {
-              background: linear-gradient(to right, $bgColor, transparent);
+              background: linear-gradient(to right, $bgColor, $bgColor, transparent);
               transform: scale(1.2);
               opacity: 1;
             }
