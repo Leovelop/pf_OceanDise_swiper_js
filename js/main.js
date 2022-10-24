@@ -37,9 +37,7 @@ swiper.autoplay.stop();
 
 btnPlay.addEventListener("click", e => {
   e.preventDefault();
-  swiper.autoplay.start();
-  btnPause.classList.remove("on");
-  btnPlay.classList.add("on");
+  play();
 });
 
 btnPause.addEventListener("click", e => {
@@ -50,3 +48,8 @@ btnPause.addEventListener("click", e => {
 });
 
 /* 함수 선언 ------------------------- */
+function play() {
+  swiper.autoplay.start();
+  btnPause.classList.remove("on");
+  btnPlay.classList.add("on");
+}
