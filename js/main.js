@@ -37,14 +37,14 @@ swiper.autoplay.stop();
 
 btnPlay.addEventListener("click", e => {
   e.preventDefault();
+  
   play();
 });
 
 btnPause.addEventListener("click", e => {
   e.preventDefault();
-  swiper.autoplay.stop();
-  btnPlay.classList.remove("on");
-  btnPause.classList.add("on");
+  
+  pause();
 });
 
 /* 함수 선언 ------------------------- */
@@ -52,4 +52,10 @@ function play() {
   swiper.autoplay.start();
   btnPause.classList.remove("on");
   btnPlay.classList.add("on");
+}
+
+function pause() {
+  swiper.autoplay.stop();
+  btnPlay.classList.remove("on");
+  btnPause.classList.add("on");
 }
