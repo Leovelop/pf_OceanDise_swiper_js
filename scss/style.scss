@@ -115,6 +115,10 @@
       padding: 40px 0px;
       backdrop-filter: blur(10px);
 
+      &.on {
+        left: 0px;
+      }
+
       h1 {
         margin-bottom: 20px;
         padding: 0px 40px;

@@ -75,6 +75,6 @@ function pause() {
 }
 
 //햄버거메뉴 함수
-function activeBtn() {
-
+function activeBtn(el) {
+  
 }
