@@ -102,6 +102,10 @@ th {
   display: block;
   clear: both;
 }
+#header .inner .btnCall {
+  position: absolute;
+  right: 10px;
+}
 #header .inner .menuMo {
   width: 300px;
   height: 100vh;
