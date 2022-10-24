@@ -1,3 +1,4 @@
+/* 전역변수 리스트 -------------------- */
 const btnPlay = document.querySelector(".play");
 const btnPause = document.querySelector(".pause");
 
@@ -31,6 +32,7 @@ let swiper = new Swiper("#wrap", {
   }
 });
 
+/* 이벤트 연결 ----------------------- */
 swiper.autoplay.stop();
 
 btnPlay.addEventListener("click", e => {
@@ -46,3 +48,5 @@ btnPause.addEventListener("click", e => {
   btnPlay.classList.remove("on");
   btnPause.classList.add("on");
 });
+
+/* 함수 선언 ------------------------- */
