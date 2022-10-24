@@ -108,6 +108,10 @@ th {
   top: 50%;
   transform: translateY(-50%);
 }
+#header .inner .btnCall i {
+  color: #fff;
+  font-size: 2rem;
+}
 #header .inner .menuMo {
   width: 300px;
   height: 100vh;
