@@ -98,7 +98,7 @@
       display: none;
 
       i {
-        color: #fff;
+        color: #172533;
         font-size: 1.5rem;
       }
     }
@@ -446,7 +446,13 @@
 
 /* tablet ---------- */
 @media screen and (max-width: 1180px) {
-  
+  #header {
+    .inner {
+      .btnCall {
+        display: block;
+      }
+    }
+  }
 }
 
 /* mobile ---------- */

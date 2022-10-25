@@ -110,7 +110,7 @@ th {
   display: none;
 }
 #header .inner .btnCall i {
-  color: #fff;
+  color: #172533;
   font-size: 1.5rem;
 }
 #header .inner .menuMo {
@@ -392,6 +392,11 @@ th {
   }
 }
 /* tablet ---------- */
+@media screen and (max-width: 1180px) {
+  #header .inner .btnCall {
+    display: block;
+  }
+}
 /* mobile ---------- */
 
 /*# sourceMappingURL=style.css.map */
