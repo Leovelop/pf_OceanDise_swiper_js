@@ -61,7 +61,9 @@ btnCall.addEventListener("click", e => {
 
 //창 너비에 따른 햄버거 메뉴 이벤트
 window.addEventListener("resize", () => {
-  
+  let wid = window.innerWidth;
+
+  if(wid >= 1180) menuMo.classList.remove("on");
 });
 
 /* 함수 선언 ------------------------- */
