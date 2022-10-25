@@ -59,6 +59,10 @@ btnCall.addEventListener("click", e => {
   activeBtn();
 });
 
+//창 너비에 따른 햄버거 메뉴 이벤트
+window.addEventListener("resize", () => {
+  
+});
 
 /* 함수 선언 ------------------------- */
 //swiper play
