@@ -76,6 +76,6 @@ function pause() {
 }
 
 //햄버거메뉴 함수
-function activeBtn(el) {
+function activeBtn() {
   menuMo.classList.toggle("on");
 }
