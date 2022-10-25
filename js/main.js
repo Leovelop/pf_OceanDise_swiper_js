@@ -2,6 +2,7 @@
 const btnPlay = document.querySelector(".play");
 const btnPause = document.querySelector(".pause");
 const btnCall = document.querySelector(".btnCall");
+const menuMo = document.querySelector(".menuMo");
 
 let swiper = new Swiper("#wrap", {
   direction: "horizontal",
