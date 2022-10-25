@@ -98,7 +98,7 @@
       display: none;
 
       i {
-        color: #172533;
+        color: #fff;
         font-size: 1.5rem;
       }
     }
@@ -447,7 +447,23 @@
 /* tablet ---------- */
 @media screen and (max-width: 1180px) {
   #header {
+    padding: 0px 30px;
+  
     .inner {
+      width: 100%;
+  
+      >h1 {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+  
+      //pc
+      .menuWeb {
+        display: none;
+      }
+  
+      //햄버거 메뉴
       .btnCall {
         display: block;
       }
