@@ -25,12 +25,30 @@ let swiper = new Swiper("#wrap", {
   },
   effect: 'coverflow',
   grabCursor: true,
-  coverflowEffect: {
+  /*coverflowEffect: {
     rotate: 50,
     stretch: 0,
     depth: 200,
     modifier: 1,
     slideShadows: true,
+  },*/
+
+  //반응형에 따른 swiper 조절
+  breakpoints : {
+    /*439: {
+      coverflowEffect: {
+        rotate: 40,
+        depth: 300,
+      }
+    },
+    1180: {
+      coverflowEffect: {
+        rotate: 50,
+        depth: 200,
+        modifier: 1,
+        slideShadows: true,
+      }
+    }*/
   }
 });
 
