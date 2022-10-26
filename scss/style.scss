@@ -426,6 +426,10 @@
   }
 
   #visual {
+    img {
+      display: block;
+    }
+    
     video {
       display: none;
     }

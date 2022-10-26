@@ -376,6 +376,9 @@ th {
     display: block;
   }
 
+  #visual img {
+    display: block;
+  }
   #visual video {
     display: none;
   }
