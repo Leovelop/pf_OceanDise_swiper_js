@@ -6,7 +6,7 @@ const menuMo = document.querySelector(".menuMo");
 
 let swiper = new Swiper("#wrap", {
   direction: "horizontal",
-  spaceBetween: 30,
+  spaceBetween: 10,
   loop: true,
   slidesPerView: "auto",
   centeredSlides: true,

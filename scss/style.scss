@@ -193,7 +193,7 @@
     height: 100%;
     position: absolute;
     top: 50%;
-    margin-top: - calc(($slideHt / 2));
+    margin-top: - calc($slideHt / 2);
     z-index: 1;
 
     .swiper-slide {
@@ -433,7 +433,7 @@
     video {
       display: none;
     }
-  }
+  }  
 }
 
 /* mobile ---------- */
