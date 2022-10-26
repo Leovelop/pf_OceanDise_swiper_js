@@ -389,6 +389,37 @@
   }
 }
 
+
+/* tablet ---------- */
+@media screen and (max-width: 1180px) {
+  #header {
+    padding: 0px 30px;
+  
+    .inner {
+      width: 100%;
+  
+      >h1 {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+  
+      //pc
+      .menuWeb {
+        display: none;
+      }
+  
+      //햄버거 메뉴
+      .btnCall {
+        display: block;
+      }
+    }
+  }
+}
+
+/* mobile ---------- */
+
+
 /* 애니메이션 */
 //박스 애니메이션
 @keyframes ani {
@@ -443,32 +474,3 @@
     transform: rotate(45deg) translateX(0px);
   }
 }
-
-/* tablet ---------- */
-@media screen and (max-width: 1180px) {
-  #header {
-    padding: 0px 30px;
-  
-    .inner {
-      width: 100%;
-  
-      >h1 {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-      }
-  
-      //pc
-      .menuWeb {
-        display: none;
-      }
-  
-      //햄버거 메뉴
-      .btnCall {
-        display: block;
-      }
-    }
-  }
-}
-
-/* mobile ---------- */

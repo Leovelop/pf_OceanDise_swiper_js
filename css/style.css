@@ -349,6 +349,27 @@ th {
   top: -30%;
 }
 
+/* tablet ---------- */
+@media screen and (max-width: 1180px) {
+  #header {
+    padding: 0px 30px;
+  }
+  #header .inner {
+    width: 100%;
+  }
+  #header .inner > h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #header .inner .menuWeb {
+    display: none;
+  }
+  #header .inner .btnCall {
+    display: block;
+  }
+}
+/* mobile ---------- */
 /* 애니메이션 */
 @keyframes ani {
   0% {
@@ -391,26 +412,5 @@ th {
     transform: rotate(45deg) translateX(0px);
   }
 }
-/* tablet ---------- */
-@media screen and (max-width: 1180px) {
-  #header {
-    padding: 0px 30px;
-  }
-  #header .inner {
-    width: 100%;
-  }
-  #header .inner > h1 {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  #header .inner .menuWeb {
-    display: none;
-  }
-  #header .inner .btnCall {
-    display: block;
-  }
-}
-/* mobile ---------- */
 
 /*# sourceMappingURL=style.css.map */
