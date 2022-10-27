@@ -4,7 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 $slideWid : 28vmax;
-$slideHt : $slideWid;
 
 #header {
   position: absolute;
@@ -196,12 +195,12 @@ $slideHt : $slideWid;
     height: 100%;
     position: absolute;
     top: 50%;
-    margin-top: - calc($slideHt / 2);
+    margin-top: - calc($slideWid / 2);
     z-index: 1;
 
     .swiper-slide {
       width: $slideWid;
-      height: $slideHt;
+      height: $slideWid;
       font-size: 100px;
       color: #111;
       background: linear-gradient(45deg, royalblue, aqua);
@@ -444,7 +443,7 @@ $slideHt : $slideWid;
   
       .swiper-slide {
         width: $slideWid;
-        height: $slideHt;
+        height: $slideWid;
         font-size: 100px;
         color: #111;
         background: linear-gradient(45deg, royalblue, aqua);
