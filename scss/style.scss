@@ -201,8 +201,6 @@ $slideWid : 28vmax;
     .swiper-slide {
       width: $slideWid;
       height: $slideWid;
-      font-size: 100px;
-      color: #111;
       background: linear-gradient(45deg, royalblue, aqua);
       position: relative;
 
@@ -442,17 +440,10 @@ $slideWid : 28vmax;
     .swiper-wrapper {
   
       .swiper-slide {
-        width: $slideWid;
-        height: $slideWid;
-        font-size: 100px;
-        color: #111;
-        background: linear-gradient(45deg, royalblue, aqua);
-        position: relative;
+        width: 500px;
+        height: 500px;
   
         .inner {
-          width: 100%;
-          height: 100%;
-          overflow: hidden;
   
           &::before,
           &::after {
