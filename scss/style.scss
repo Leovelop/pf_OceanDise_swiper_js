@@ -450,9 +450,38 @@ $slideWid : 28vmax;
   }
 }
 
+/* middle ---------- */
+@media screen and (max-width: 899px) {
+  #wrap {
+    
+    $slideWid: 35vmax;
+
+    .swiper-wrapper {
+      margin-top: - calc(($slideWid * 1.2) / 2);
+
+      .swiper-slide {
+        width: $slideWid;
+        height: $slideWid * 1.2;
+      }
+    }
+  }
+}
+
 /* mobile ---------- */
 @media screen and (max-width: 539px) {
-  
+  #wrap {
+    
+    $slideWid: 25vmax;
+
+    .swiper-wrapper {
+      margin-top: - calc(($slideWid * 1.2) / 2);
+
+      .swiper-slide {
+        width: $slideWid;
+        height: $slideWid * 1.2;
+      }
+    }
+  }
 }
 
 /* 애니메이션 */
