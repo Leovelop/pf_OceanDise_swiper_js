@@ -440,18 +440,20 @@ $slideWid : 28vmax;
     $slideWid: 40vmax;
 
     .swiper-wrapper {
-      margin-top: - calc($slideWid / 2);
+      margin-top: - calc(($slideWid * 1.2) / 2);
 
       .swiper-slide {
         width: $slideWid;
-        height: $slideWid;
+        height: $slideWid * 1.2;
       }
     }
   }
 }
 
 /* mobile ---------- */
-
+@media screen and (max-width: 539px) {
+  
+}
 
 /* 애니메이션 */
 //박스 애니메이션

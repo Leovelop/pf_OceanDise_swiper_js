@@ -382,11 +382,11 @@ th {
   }
 
   #wrap .swiper-wrapper {
-    margin-top: -20vmax;
+    margin-top: -24vmax;
   }
   #wrap .swiper-wrapper .swiper-slide {
     width: 40vmax;
-    height: 40vmax;
+    height: 48vmax;
   }
 }
 /* mobile ---------- */
