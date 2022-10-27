@@ -197,7 +197,7 @@ th {
 #wrap .swiper-wrapper .swiper-slide {
   width: 28vmax;
   height: 28vmax;
-  background: linear-gradient(45deg, royalblue, aqua);
+  background: #172533;
   position: relative;
 }
 #wrap .swiper-wrapper .swiper-slide .inner {
