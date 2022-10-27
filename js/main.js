@@ -33,6 +33,14 @@ let swiper = new Swiper("#wrap", {
 
   //반응형에 따른 swiper 조절
   breakpoints : {
+    0: {
+      spaceBetween: -120,
+      coverflowEffect: {
+        rotate: 80,
+        depth: 400,
+      },
+    },
+
     539: {
       spaceBetween: -100,
       coverflowEffect: {
@@ -40,6 +48,7 @@ let swiper = new Swiper("#wrap", {
         depth: 300,
       },
     },
+    
     1180: {
       spaceBetween: 10,
       coverflowEffect: {

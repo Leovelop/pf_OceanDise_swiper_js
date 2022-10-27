@@ -457,11 +457,11 @@ $slideWid : 28vmax;
     $slideWid: 35vmax;
 
     .swiper-wrapper {
-      margin-top: - calc(($slideWid * 1.2) / 2);
+      margin-top: - calc(($slideWid * 1.3) / 2);
 
       .swiper-slide {
         width: $slideWid;
-        height: $slideWid * 1.2;
+        height: $slideWid * 1.3;
       }
     }
   }
@@ -471,14 +471,14 @@ $slideWid : 28vmax;
 @media screen and (max-width: 539px) {
   #wrap {
     
-    $slideWid: 25vmax;
+    $slideWid: 30vmax;
 
     .swiper-wrapper {
-      margin-top: - calc(($slideWid * 1.2) / 2);
+      margin-top: - calc(($slideWid * 1.5) / 2);
 
       .swiper-slide {
         width: $slideWid;
-        height: $slideWid * 1.2;
+        height: $slideWid * 1.5;
       }
     }
   }

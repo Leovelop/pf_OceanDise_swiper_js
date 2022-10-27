@@ -392,21 +392,21 @@ th {
 /* middle ---------- */
 @media screen and (max-width: 899px) {
   #wrap .swiper-wrapper {
-    margin-top: -21vmax;
+    margin-top: -22.75vmax;
   }
   #wrap .swiper-wrapper .swiper-slide {
     width: 35vmax;
-    height: 42vmax;
+    height: 45.5vmax;
   }
 }
 /* mobile ---------- */
 @media screen and (max-width: 539px) {
   #wrap .swiper-wrapper {
-    margin-top: -15vmax;
+    margin-top: -22.5vmax;
   }
   #wrap .swiper-wrapper .swiper-slide {
-    width: 25vmax;
-    height: 30vmax;
+    width: 30vmax;
+    height: 45vmax;
   }
 }
 /* 애니메이션 */
