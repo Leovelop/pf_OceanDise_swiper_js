@@ -6,7 +6,7 @@ const menuMo = document.querySelector(".menuMo");
 
 let swiper = new Swiper("#wrap", {
   direction: "horizontal",
-  spaceBetween: 10,
+  
   loop: true,
   slidesPerView: "auto",
   centeredSlides: true,
@@ -25,30 +25,28 @@ let swiper = new Swiper("#wrap", {
   },
   effect: 'coverflow',
   grabCursor: true,
-  /*coverflowEffect: {
+  coverflowEffect: {
     rotate: 50,
-    stretch: 0,
     depth: 200,
-    modifier: 1,
     slideShadows: true,
-  },*/
+  },
 
   //반응형에 따른 swiper 조절
   breakpoints : {
-    /*439: {
+    539: {
+      spaceBetween: -100,
       coverflowEffect: {
-        rotate: 40,
+        rotate: 60,
         depth: 300,
-      }
+      },
     },
     1180: {
+      spaceBetween: 10,
       coverflowEffect: {
         rotate: 50,
         depth: 200,
-        modifier: 1,
-        slideShadows: true,
-      }
-    }*/
+      },
+    }
   }
 });
 
