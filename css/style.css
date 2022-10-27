@@ -381,45 +381,13 @@ th {
     display: none;
   }
 
+  #wrap .swiper-wrapper {
+    top: 50%;
+    margin-top: -250px;
+  }
   #wrap .swiper-wrapper .swiper-slide {
     width: 500px;
     height: 500px;
-  }
-  #wrap .swiper-wrapper .swiper-slide .inner::before, #wrap .swiper-wrapper .swiper-slide .inner::after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    z-index: -1;
-    background: linear-gradient(45deg, royalblue, aqua);
-  }
-  #wrap .swiper-wrapper .swiper-slide .inner img {
-    width: inherit;
-    height: inherit;
-    object-fit: cover;
-    transition: 0.5s;
-  }
-  #wrap .swiper-wrapper .swiper-slide .inner {
-    transition: 0.3s;
-    opacity: 0.4;
-  }
-  #wrap .swiper-wrapper .swiper-slide-prev .inner,
-#wrap .swiper-wrapper .swiper-slide-next .inner {
-    transition: 0.3s;
-    opacity: 0.7;
-  }
-  #wrap .swiper-wrapper .swiper-slide-active .inner {
-    opacity: 1;
-    box-shadow: 5px 5px 100px rgba(82, 169, 255, 0.5);
-    transition: 0.3s;
-  }
-  #wrap .swiper-wrapper .swiper-slide-active .inner::before {
-    animation: ani 1s ease 0.2s 1;
-  }
-  #wrap .swiper-wrapper .swiper-slide-active .inner::after {
-    animation: ani 1s ease 0.5s 1;
   }
   #wrap .swiper-pagination .swiper-pagination-bullet {
     background: aqua;

@@ -436,86 +436,40 @@ $slideWid : 28vmax;
   }
 
   #wrap {
-  
+
+    $slideWid: 500px;
+
     .swiper-wrapper {
-  
+      top: 50%;
+      margin-top: - calc($slideWid / 2);
+
       .swiper-slide {
-        width: 500px;
-        height: 500px;
-  
-        .inner {
-  
-          &::before,
-          &::after {
-            content: '';
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            top: 0px;
-            left: 0px;
-            z-index: -1;
-            background: linear-gradient(45deg, royalblue, aqua);
-          }
-  
-          img {
-            width: inherit;
-            height: inherit;
-            object-fit: cover;
-            transition: 0.5s;
-          }
-        }
-      }
-  
-      .swiper-slide .inner {
-        transition: 0.3s;
-        opacity: 0.4;
-      }
-  
-      .swiper-slide-prev .inner,
-      .swiper-slide-next .inner {
-        transition: 0.3s;
-        opacity: 0.7;
-      }
-  
-      .swiper-slide-active {
-  
-        .inner {
-          opacity: 1;
-          box-shadow: 5px 5px 100px rgba(82, 169, 255, 0.5);
-          transition: 0.3s;
-  
-          &::before {
-            animation: ani 1s ease 0.2s 1;
-          }
-  
-          &::after {
-            animation: ani 1s ease 0.5s 1;
-          }
-        }
+        width: $slideWid;
+        height: $slideWid;
       }
     }
-  
+
     //페이지네이션
     .swiper-pagination {
       .swiper-pagination-bullet {
         background: aqua;
       }
     }
-  
+
     $btnWid : 400px;
-  
+
     .swiper-button {
       position: absolute;
       left: 50%;
       bottom: 50px;
       width: $btnWid;
       margin-left: - calc($btnWid / 2);
-  
+
       .swiper-button-prev,
       .swiper-button-next {
         width: 40px;
         height: 40px;
-  
+
         >div {
           width: 100%;
           height: 100%;
@@ -523,10 +477,10 @@ $slideWid : 28vmax;
           background: rgba(0, 0, 0, 0.5);
           position: relative;
           overflow: hidden;
-  
+
           $arrowWid: 12px;
           $arrowHt: 2px;
-  
+
           &::before,
           &::after {
             content: '';
@@ -541,40 +495,40 @@ $slideWid : 28vmax;
             border-bottom-right-radius: 1px;
             transition: 0.75s;
           }
-  
+
           &::before {
             transform: rotate(- 45deg) translateX(- 1px);
           }
-  
+
           &::after {
             transform: rotate(45deg) translateX(- 1px);
           }
         }
-  
+
         &::after {
           display: none;
         }
-  
+
         &:hover {
           >div {
             &::before {
               animation: prevArrow 0.75s;
             }
-  
+
             &::after {
               animation: nextArrow 0.75s;
             }
           }
         }
       }
-  
+
       .swiper-button-next {
         >div {
           transform: rotateY(180deg);
         }
       }
     }
-  
+
     .auto {
       position: absolute;
       left: 50%;
@@ -582,7 +536,7 @@ $slideWid : 28vmax;
       bottom: 50px;
       z-index: 2;
       display: flex;
-  
+
       li {
         position: relative;
         width: 100px;
@@ -593,26 +547,26 @@ $slideWid : 28vmax;
         transition: 0.5s;
         font: bold 14px/40px 'arial';
         text-align: center;
-  
+
         a {
           color: #fff;
           display: inline-block;
           width: 100%;
           height: 100%;
         }
-  
+
         &:last-child {
           margin-right: 0;
         }
-  
+
         &.on {
           background: $btnColor;
-  
+
           a {
             color: #172533;
           }
         }
-  
+
         &::after {
           content: '';
           position: absolute;
@@ -625,7 +579,7 @@ $slideWid : 28vmax;
           transition: 0.3s;
           opacity: 0;
         }
-  
+
         &:hover::after {
           opacity: 1;
           top: -30%;
