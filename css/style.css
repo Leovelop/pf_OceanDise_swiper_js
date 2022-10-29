@@ -382,21 +382,21 @@ th {
   }
 
   #wrap .swiper-wrapper {
-    margin-top: -24vmax;
+    margin-top: -21vmax;
   }
   #wrap .swiper-wrapper .swiper-slide {
-    width: 40vmax;
-    height: 48vmax;
+    width: 35vmax;
+    height: 42vmax;
   }
 }
 /* middle ---------- */
 @media screen and (max-width: 899px) {
   #wrap .swiper-wrapper {
-    margin-top: -22.75vmax;
+    margin-top: -20.8vmax;
   }
   #wrap .swiper-wrapper .swiper-slide {
-    width: 35vmax;
-    height: 45.5vmax;
+    width: 32vmax;
+    height: 41.6vmax;
   }
   #wrap .swiper-wrapper .swiper-slide .inner {
     opacity: 0.2;
