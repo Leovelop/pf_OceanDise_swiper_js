@@ -37,7 +37,7 @@ let swiper = new Swiper("#wrap", {
     0: {
       spaceBetween: -100,
       coverflowEffect: {
-        rotate: 80,
+        rotate: 70,
         depth: 400,
       },
     },
@@ -53,7 +53,6 @@ let swiper = new Swiper("#wrap", {
     899: {
       spaceBetween: -50,
       coverflowEffect: {
-        rotate: 60,
         depth: 250,
       },
     },
