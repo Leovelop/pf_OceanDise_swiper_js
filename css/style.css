@@ -392,11 +392,11 @@ th {
 /* middle ---------- */
 @media screen and (max-width: 899px) {
   #wrap .swiper-wrapper {
-    margin-top: -29.25vh;
+    margin-top: -27.3vh;
   }
   #wrap .swiper-wrapper .swiper-slide {
-    width: 45vh;
-    height: 58.5vh;
+    width: 42vh;
+    height: 54.6vh;
   }
   #wrap .swiper-wrapper .swiper-slide .inner {
     opacity: 0.2;
@@ -412,11 +412,11 @@ th {
 /* mobile ---------- */
 @media screen and (max-width: 539px) {
   #wrap .swiper-wrapper {
-    margin-top: -30vh;
+    margin-top: -28.5vh;
   }
   #wrap .swiper-wrapper .swiper-slide {
-    width: 40vh;
-    height: 60vh;
+    width: 38vh;
+    height: 57vh;
   }
 }
 /* 애니메이션 */
