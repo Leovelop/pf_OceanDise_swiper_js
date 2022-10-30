@@ -454,15 +454,15 @@ $slideWid : 28vmax;
 @media screen and (max-width: 899px) {
   #wrap {
     
-    //$slideWid: 50vh;
+    $slideWid: 45vh;
 
     .swiper-wrapper {
-      /*margin-top: - calc(($slideWid * 1.3) / 2);
+      margin-top: - calc(($slideWid * 1.3) / 2);
 
       .swiper-slide {
         width: $slideWid;
         height: $slideWid * 1.3;
-      }*/
+      }
 
       .swiper-slide .inner {
         opacity: 0.2;
